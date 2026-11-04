@@ -306,7 +306,9 @@ h1,h2,h3 {
     box-shadow:0 3px 12px rgba(0,0,0,.12); 
 }
 .favorite.active { 
-    color:var(--gold); 
+  color: #F2B134;
+  background: #FFF8E1;
+  border-color: #F2B134; 
 }
 .card-body { 
     padding:18px 19px 20px; 

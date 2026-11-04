@@ -835,7 +835,7 @@ function renderRecipes() {
       <div class="photo-wrap">
         <img src="${recipe.image}" alt="${recipe.name}" loading="lazy" onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg,#f6c9a8,#8e6045)'">
         <span class="origin-pill">🌎 ${recipe.country}</span>
-        <button class="favorite ${isFavorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="Favoritar ${recipe.name}">${isFavorite ? "♥" : "♡"}</button>
+        <button class="favorite ${isFavorite ? "active" : ""}" data-favorite="${recipe.id}" aria-label="Favoritar ${recipe.name}">${isFavorite ? "★" : "☆"}</button>
       </div>
       <div class="card-body">
         <h3>${recipe.name}</h3>
@@ -857,7 +857,12 @@ grid.addEventListener("click", event => {
     localStorage.setItem("cookcode-favorites", JSON.stringify(favorites));
     renderRecipes();
   }
-  if (detailsButton) openRecipe(Number(detailsButton.dataset.details));
+  if (detailsButton) {
+  console.log("Botão de detalhes clicado!");
+  console.log("ID da receita:", detailsButton.dataset.details);
+
+  openRecipe(Number(detailsButton.dataset.details));
+}
 });
 
 function openRecipe(id) {  const recipe = recipes.find(item => item.id === id);
@@ -867,8 +872,8 @@ function openRecipe(id) {  const recipe = recipes.find(item => item.id === id);
   modalImage.alt = recipe.name;
   document.getElementById("modalOrigin").textContent = `RECEITA • ${recipe.country}`;
   document.getElementById("modalTitle").textContent = recipe.name;
-  document.getElementById("modalDescription").textContent = recipe.Descrição;
-  document.getElementById("modalIngredients").innerHTML = recipe.ingredientes.map(item => `<li>${item}</li>`).join("");
+  document.getElementById("modalDescrição").textContent = recipe.Descrição;
+  document.getElementById("modalIngredientes").innerHTML = recipe.ingredientes.map(item => `<li>${item}</li>`).join("");
   document.getElementById("modalSteps").innerHTML = recipe.steps.map(item => `<li>${item}</li>`).join("");
   dialog.showModal();
 }
@@ -879,7 +884,7 @@ countryFilter.addEventListener("change", renderRecipes);
 favoritesFilter.addEventListener("click", () => {
   favoritesOnly = !favoritesOnly;
   favoritesFilter.classList.toggle("active", favoritesOnly);
-  favoritesFilter.textContent = favoritesOnly ? "♥ Ver todas" : "♡ Favoritos";
+  favoritesFilter.textContent = favoritesOnly ? "★ Ver todas" : "☆ Favoritos";
   renderRecipes();
 });
 
