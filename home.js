@@ -3,15 +3,15 @@ const recipes = [
   {
     id: 1, name: "Brigadeiro tradicional", country: "Brasil", time: "25 min", level: "Fácil",
     image: "https://redefoodservice.com.br/wp-content/uploads/2023/01/Brigadeiro2.jpg",
-    description: "O clássico brasileiro cremoso, perfeito para compartilhar.",
-    ingredients: ["1 lata de leite condensado", "2 colheres de chocolate em pó", "1 colher de manteiga", "Granulado para finalizar"],
+    Descrição: "O clássico brasileiro cremoso, perfeito para compartilhar.",
+    ingredientes: ["1 lata de leite condensado", "2 colheres de chocolate em pó", "1 colher de manteiga", "Granulado para finalizar"],
     steps: ["Misture o leite condensado, o chocolate e a manteiga em uma panela.", "Cozinhe em fogo baixo, mexendo sempre, até desgrudar do fundo.", "Espere esfriar, enrole e passe no granulado."]
   },
   {
     id: 2, name: "Pudim de leite", country: "Brasil", time: "1h 20 min", level: "Médio",
     image: "https://i.pinimg.com/736x/bb/b4/62/bbb4620a971318867d7117878152c7ea.jpg",
-    description: "Pudim macio com calda de caramelo brilhante.",
-    ingredients: ["1 lata de leite condensado", "A mesma medida de leite", "3 ovos", "1 xícara de açúcar para a calda"],
+    Descrição: "Pudim macio com calda de caramelo brilhante.",
+    ingredientes: ["1 lata de leite condensado", "A mesma medida de leite", "3 ovos", "1 xícara de açúcar para a calda"],
     steps: ["Derreta o açúcar até formar um caramelo e espalhe na forma.", "Bata o leite condensado, o leite e os ovos.", "Despeje na forma e asse em banho-maria até firmar. Deixe gelar antes de desenformar."]
   },
   
@@ -22,8 +22,8 @@ const recipes = [
     time: "50 min",
     level: "Médio",
     image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=85",
-    description: "Brownie intenso de chocolate com recheio cremoso e textura irresistível.",
-    ingredients: [
+    Descrição: "Brownie intenso de chocolate com recheio cremoso e textura irresistível.",
+    ingredientes: [
         "200 g de chocolate meio amargo",
         "150 g de manteiga",
         "1 xícara de açúcar",
@@ -43,22 +43,22 @@ const recipes = [
   {
     id: 4, name: "Tiramisu", country: "Itália", time: "30 min + geladeira", level: "Médio",
     image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85",
-    description: "Sobremesa italiana com café, creme delicado e cacau.",
-    ingredients: ["250 g de mascarpone", "2 ovos", "½ xícara de açúcar", "Café forte frio", "Biscoito champagne", "Cacau em pó"],
+    Descrição: "Sobremesa italiana com café, creme delicado e cacau.",
+    ingredientes: ["250 g de mascarpone", "2 ovos", "½ xícara de açúcar", "Café forte frio", "Biscoito champagne", "Cacau em pó"],
     steps: ["Prepare um creme batendo as gemas com açúcar e misturando o mascarpone.", "Incorpore delicadamente as claras em neve.", "Passe os biscoitos rapidamente no café e monte camadas com o creme.", "Leve à geladeira e finalize com cacau."]
   },
   {
     id: 5, name: "Pastel de nata", country: "Portugal", time: "50 min", level: "Médio",
     image: "https://i.pinimg.com/736x/3c/92/c0/3c92c00017072b39a5e8a16753e5b1b1.jpg",
-    description: "Doce português com massa folhada e creme aromático.",
-    ingredients: ["Massa folhada", "250 ml de leite", "150 g de açúcar", "3 gemas", "Casca de limão", "Canela"],
+    Descrição: "Doce português com massa folhada e creme aromático.",
+    ingredientes: ["Massa folhada", "250 ml de leite", "150 g de açúcar", "3 gemas", "Casca de limão", "Canela"],
     steps: ["Aqueça o leite com a casca de limão.", "Faça uma calda com açúcar e um pouco de água.", "Misture gemas, leite e calda até formar o creme.", "Distribua em forminhas com massa folhada e asse em forno bem quente até dourar."]
   },
   {
     id: 6, name: "Panquecas americanas", country: "Estados Unidos", time: "20 min", level: "Fácil",
     image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&q=85",
-    description: "Panquecas fofinhas para um café da manhã especial.",
-    ingredients: ["1 xícara de farinha", "1 colher de açúcar", "1 colher de fermento", "1 ovo", "¾ de xícara de leite", "2 colheres de manteiga derretida"],
+    Descrição: "Panquecas fofinhas para um café da manhã especial.",
+    ingredientes: ["1 xícara de farinha", "1 colher de açúcar", "1 colher de fermento", "1 ovo", "¾ de xícara de leite", "2 colheres de manteiga derretida"],
     steps: ["Misture os ingredientes secos.", "Acrescente ovo, leite e manteiga, mexendo só até incorporar.", "Coloque pequenas porções em frigideira untada e vire quando surgirem bolhas."]
   }
 ,
@@ -70,8 +70,8 @@ const recipes = [
   time: "40 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/01/bd/b4/01bdb4dbbb4bbe271945b5fb54aedfb9.jpg",
-  description: "Torta inglesa irresistível com banana, doce de leite, chantilly e base crocante.",
-  ingredients: [
+  Descrição: "Torta inglesa irresistível com banana, doce de leite, chantilly e base crocante.",
+  ingredientes: [
     "200 g de biscoito maisena",
     "100 g de manteiga derretida",
     "400 g de doce de leite",
@@ -99,8 +99,8 @@ const recipes = [
   time: "1h + geladeira",
   level: "Médio",
   image: "https://i.pinimg.com/736x/2f/8e/d8/2f8ed8b68fed0ee3eaf82d63c307e5ab.jpg",
-  description: "Sobremesa francesa com creme delicado de baunilha e cobertura crocante de açúcar caramelizado.",
-  ingredients: [
+  Descrição: "Sobremesa francesa com creme delicado de baunilha e cobertura crocante de açúcar caramelizado.",
+  ingredientes: [
     "500 ml de creme de leite fresco",
     "5 gemas",
     "100 g de açúcar",
@@ -127,8 +127,8 @@ const recipes = [
   time: "1h 40 min",
   level: "Médio",
   image: "https://i.pinimg.com/736x/19/4f/f7/194ff789f450937c2668ed534115d28c.jpg",
-  description: "Sobremesa delicada com merengue crocante, interior macio, chantilly e morangos frescos.",
-  ingredients: [
+  Descrição: "Sobremesa delicada com merengue crocante, interior macio, chantilly e morangos frescos.",
+  ingredientes: [
     "4 claras de ovos",
     "200 g de açúcar refinado",
     "1 colher de chá de vinagre branco",
@@ -157,8 +157,8 @@ const recipes = [
   time: "30 min",
   level: "Fácil",
   image: "https://i.pinimg.com/1200x/fc/3a/f5/fc3af502c5e3cbdf7f9c9e4c4053b068.jpg",
-  description: "Versão sofisticada do brigadeiro brasileiro, com sabor intenso de pistache.",
-  ingredients: [
+  Descrição: "Versão sofisticada do brigadeiro brasileiro, com sabor intenso de pistache.",
+  ingredientes: [
     "1 lata de leite condensado",
     "100 g de creme de leite",
     "2 colheres de pasta de pistache sem açúcar",
@@ -183,8 +183,8 @@ const recipes = [
   time: "1h 20 min",
   level: "Médio",
   image: "https://i.pinimg.com/1200x/cc/dc/59/ccdc593977266ae81524a87a07916086.jpg",
-  description: "Bolo americano de massa vermelha aveludada com recheio cremoso de cream cheese.",
-  ingredients: [
+  Descrição: "Bolo americano de massa vermelha aveludada com recheio cremoso de cream cheese.",
+  ingredientes: [
     "2 xícaras de farinha de trigo",
     "1 xícara de açúcar",
     "2 ovos",
@@ -218,8 +218,8 @@ const recipes = [
   time: "1h + geladeira",
   level: "Médio",
   image: "https://i.pinimg.com/736x/0d/53/4d/0d534d11a7282188061b65691cf3f4d8.jpg",
-  description: "Bolo latino-americano extremamente macio, umedecido com três tipos de leite.",
-  ingredients: [
+  Descrição: "Bolo latino-americano extremamente macio, umedecido com três tipos de leite.",
+  ingredientes: [
     "4 ovos",
     "1 xícara de açúcar",
     "1 xícara de farinha de trigo",
@@ -249,8 +249,8 @@ const recipes = [
   time: "2h 30 min",
   level: "Médio",
   image: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=85",
-  description: "Pão doce enrolado com açúcar e canela, macio por dentro e dourado por fora.",
-  ingredients: [
+  Descrição: "Pão doce enrolado com açúcar e canela, macio por dentro e dourado por fora.",
+  ingredientes: [
     "500 g de farinha de trigo",
     "250 ml de leite morno",
     "10 g de fermento biológico seco",
@@ -282,8 +282,8 @@ const recipes = [
   time: "40 min",
   level: "Médio",
   image: "https://i.pinimg.com/1200x/03/f8/8a/03f88a9b9920adff7b458d3b0df61c4c.jpg",
-  description: "Crepe francês delicado servido com molho amanteigado de laranja.",
-  ingredients: [
+  Descrição: "Crepe francês delicado servido com molho amanteigado de laranja.",
+  ingredientes: [
     "1 xícara de farinha de trigo",
     "2 ovos",
     "250 ml de leite",
@@ -313,8 +313,8 @@ const recipes = [
   time: "1h 15 min",
   level: "Fácil",
   image: "https://i.pinimg.com/1200x/e3/bc/fb/e3bcfb32ee331b6198280cfdf4d40e64.jpg",
-  description: "Sobremesa brasileira cremosa de chocolate, semelhante a um pudim.",
-  ingredients: [
+  Descrição: "Sobremesa brasileira cremosa de chocolate, semelhante a um pudim.",
+  ingredientes: [
     "1 lata de leite condensado",
     "1 caixa de creme de leite",
     "3 ovos",
@@ -340,8 +340,8 @@ const recipes = [
   time: "50 min",
   level: "Fácil",
   image: "https://images.unsplash.com/photo-1562007908-17c67e878c88?auto=format&fit=crop&w=900&q=85",
-  description: "Sobremesa britânica de maçãs assadas com cobertura crocante e amanteigada.",
-  ingredients: [
+  Descrição: "Sobremesa britânica de maçãs assadas com cobertura crocante e amanteigada.",
+  ingredientes: [
     "4 maçãs",
     "100 g de farinha de trigo",
     "80 g de manteiga gelada",
@@ -369,8 +369,8 @@ const recipes = [
   time: "20 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/1a/d3/7e/1ad37e60529aa2b808f7e5247a262eb3.jpg",
-  description: "Doce americano de chocolate com textura densa, macia e extremamente cremosa.",
-  ingredients: [
+  Descrição: "Doce americano de chocolate com textura densa, macia e extremamente cremosa.",
+  ingredientes: [
     "400 g de chocolate meio amargo",
     "1 lata de leite condensado",
     "1 colher de manteiga",
@@ -396,8 +396,8 @@ const recipes = [
   time: "2h",
   level: "Difícil",
   image: "https://images.unsplash.com/photo-1558326567-98ae2405596b?auto=format&fit=crop&w=900&q=85",
-  description: "Docinhos franceses delicados feitos com farinha de amêndoas e recheio cremoso.",
-  ingredients: [
+  Descrição: "Docinhos franceses delicados feitos com farinha de amêndoas e recheio cremoso.",
+  ingredientes: [
     "100 g de farinha de amêndoas",
     "100 g de açúcar de confeiteiro",
     "75 g de claras de ovos",
@@ -427,8 +427,8 @@ const recipes = [
   time: "40 min",
   level: "Médio",
   image: "https://i.pinimg.com/1200x/b5/b6/a2/b5b6a248382ecd09bfcc3366cb072966.jpg",
-  description: "Massa frita crocante por fora e macia por dentro, envolvida em açúcar e canela.",
-  ingredients: [
+  Descrição: "Massa frita crocante por fora e macia por dentro, envolvida em açúcar e canela.",
+  ingredientes: [
     "1 xícara de água",
     "1 xícara de farinha de trigo",
     "2 colheres de manteiga",
@@ -459,8 +459,8 @@ const recipes = [
   time: "30 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/40/9f/bc/409fbc3972983c2f63472d1314d9477b.jpg",
-  description: "Doce brasileiro que combina brigadeiro cremoso com pedaços crocantes de biscoito.",
-  ingredients: [
+  Descrição: "Doce brasileiro que combina brigadeiro cremoso com pedaços crocantes de biscoito.",
+  ingredientes: [
     "1 lata de leite condensado",
     "3 colheres de chocolate em pó",
     "1 colher de manteiga",
@@ -486,8 +486,8 @@ const recipes = [
   time: "1h",
   level: "Médio",
   image: "https://i.pinimg.com/736x/d8/8e/ab/d88eab3522dc4dd9e5bce2419ec61929.jpg",
-  description: "Sobremesa indiana tradicional feita com bolinhas macias mergulhadas em calda aromática.",
-  ingredients: [
+  Descrição: "Sobremesa indiana tradicional feita com bolinhas macias mergulhadas em calda aromática.",
+  ingredientes: [
     "1 xícara de leite em pó integral",
     "¼ de xícara de farinha de trigo",
     "¼ de colher de chá de bicarbonato de sódio",
@@ -518,8 +518,8 @@ const recipes = [
   time: "1h 30 min + geladeira",
   level: "Médio",
   image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=85",
-  description: "Cheesecake americana cremosa com base crocante e cobertura de frutas vermelhas.",
-  ingredients: [
+  Descrição: "Cheesecake americana cremosa com base crocante e cobertura de frutas vermelhas.",
+  ingredientes: [
     "200 g de biscoito maisena",
     "100 g de manteiga derretida",
     "600 g de cream cheese",
@@ -550,8 +550,8 @@ const recipes = [
   time: "55 min",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/d2/3b/75/d23b7555b1cf62ca30aac7e767bb3ed2.jpg",
-  description: "Bolo brasileiro fofinho de cenoura com cobertura cremosa de chocolate.",
-  ingredients: [
+  Descrição: "Bolo brasileiro fofinho de cenoura com cobertura cremosa de chocolate.",
+  ingredientes: [
     "3 cenouras médias picadas (aproximadamente 250 g)",
     "3 ovos",
     "½ xícara de óleo",
@@ -582,8 +582,8 @@ const recipes = [
   time: "35 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/1200x/5f/6f/49/5f6f49c84e79f3db693d014af46340b4.jpg",
-  description: "Sobremesa cremosa em camadas de biscoito e creme de leite em pó.",
-  ingredients: [
+  Descrição: "Sobremesa cremosa em camadas de biscoito e creme de leite em pó.",
+  ingredientes: [
     "1 lata de leite condensado",
     "2 caixas de creme de leite",
     "1 xícara de leite em pó",
@@ -613,8 +613,8 @@ const recipes = [
   time: "50 min + geladeira",
   level: "Médio",
   image: "https://i.pinimg.com/736x/85/ec/f5/85ecf5adcfc71edbee8aa05ebd416b73.jpg",
-  description: "Torta brasileira com creme branco, cobertura de chocolate e biscoitos decorativos.",
-  ingredients: [
+  Descrição: "Torta brasileira com creme branco, cobertura de chocolate e biscoitos decorativos.",
+  ingredientes: [
     "200 g de biscoito maisena",
     "100 g de manteiga derretida",
     "200 g de manteiga sem sal em temperatura ambiente",
@@ -645,8 +645,8 @@ const recipes = [
   time: "40 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/74/d8/61/74d861f2f6deacc928f625c9826ce6b1.jpg",
-  description: "Sobremesa brasileira com morangos frescos, creme branco e ganache de chocolate.",
-  ingredients: [
+  Descrição: "Sobremesa brasileira com morangos frescos, creme branco e ganache de chocolate.",
+  ingredientes: [
     "2 caixas de morangos",
     "1 lata de leite condensado",
     "2 caixas de creme de leite",
@@ -673,8 +673,8 @@ const recipes = [
   time: "15 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/d6/5f/9a/d65f9a62f9fef19d3917469c5fc74210.jpg",
-  description: "Sobremesa leve, cremosa e refrescante com o equilíbrio perfeito entre doce e cítrico.",
-  ingredients: [
+  Descrição: "Sobremesa leve, cremosa e refrescante com o equilíbrio perfeito entre doce e cítrico.",
+  ingredientes: [
     "1 lata de leite condensado",
     "2 caixas de creme de leite",
     "½ xícara de suco de limão",
@@ -698,8 +698,8 @@ const recipes = [
   time: "35 min",
   level: "Fácil",
   image: "https://i.pinimg.com/736x/d5/2f/91/d52f910631925c6fbda82c4ab3e342cb.jpg",
-  description: "Cookies americanos com bordas crocantes, centro macio e gotas de chocolate.",
-  ingredients: [
+  Descrição: "Cookies americanos com bordas crocantes, centro macio e gotas de chocolate.",
+  ingredientes: [
     "120 g de manteiga",
     "½ xícara de açúcar refinado",
     "½ xícara de açúcar mascavo",
@@ -730,8 +730,8 @@ const recipes = [
   time: "1h",
   level: "Médio",
   image: "https://i.pinimg.com/736x/41/07/ae/4107aec4fa3025437c718d0c036cdf08.jpg",
-  description: "Torta de massa de cookie recheada com creme de avelã e chocolate.",
-  ingredients: [
+  Descrição: "Torta de massa de cookie recheada com creme de avelã e chocolate.",
+  ingredientes: [
     "200 g de manteiga",
     "1 xícara de açúcar mascavo",
     "½ xícara de açúcar refinado",
@@ -763,8 +763,8 @@ const recipes = [
   time: "35 min + geladeira",
   level: "Fácil",
   image: "https://i.pinimg.com/1200x/87/24/ea/8724ea40511b8a83403454280e41a037.jpg",
-  description: "Torta refrescante com base crocante, mousse de maracujá e cobertura de sementes.",
-  ingredients: [
+  Descrição: "Torta refrescante com base crocante, mousse de maracujá e cobertura de sementes.",
+  ingredientes: [
     "200 g de biscoito maisena",
     "100 g de manteiga derretida",
     "1 lata de leite condensado",
@@ -813,7 +813,7 @@ function renderRecipes() {
   const term = searchInput.value.trim().toLocaleLowerCase("pt-BR");
   const country = countryFilter.value;
   const filtered = recipes.filter(recipe => {
-    const searchable = [recipe.name, recipe.country, recipe.description, ...recipe.ingredients].join(" ").toLocaleLowerCase("pt-BR");
+    const searchable = [recipe.name, recipe.country, recipe.Descrição, ...recipe.ingredientes].join(" ").toLocaleLowerCase("pt-BR");
     return searchable.includes(term)
       && (!country || recipe.country === country)
       && (!favoritesOnly || favorites.includes(recipe.id));
@@ -839,7 +839,7 @@ function renderRecipes() {
       </div>
       <div class="card-body">
         <h3>${recipe.name}</h3>
-        <p class="description">${recipe.description}</p>
+        <p class="description">${recipe.Descrição}</p>
         <div class="meta"><span>◷ ${recipe.time}</span><span>✦ ${recipe.level}</span></div>
         <button class="details-button" data-details="${recipe.id}">Ver ingredientes e preparo</button>
       </div>`;
@@ -860,16 +860,15 @@ grid.addEventListener("click", event => {
   if (detailsButton) openRecipe(Number(detailsButton.dataset.details));
 });
 
-function openRecipe(id) {
-  const recipe = recipes.find(item => item.id === id);
+function openRecipe(id) {  const recipe = recipes.find(item => item.id === id);
   modalImage.style.display = "block";
   modalImage.onerror = () => { modalImage.style.display = "none"; };
   modalImage.src = recipe.image;
   modalImage.alt = recipe.name;
   document.getElementById("modalOrigin").textContent = `RECEITA • ${recipe.country}`;
   document.getElementById("modalTitle").textContent = recipe.name;
-  document.getElementById("modalDescription").textContent = recipe.description;
-  document.getElementById("modalIngredients").innerHTML = recipe.ingredients.map(item => `<li>${item}</li>`).join("");
+  document.getElementById("modalDescription").textContent = recipe.Descrição;
+  document.getElementById("modalIngredients").innerHTML = recipe.ingredientes.map(item => `<li>${item}</li>`).join("");
   document.getElementById("modalSteps").innerHTML = recipe.steps.map(item => `<li>${item}</li>`).join("");
   dialog.showModal();
 }
